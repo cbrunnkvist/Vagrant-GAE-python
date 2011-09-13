@@ -1,5 +1,5 @@
 # Ubuntu + Python v2.5 + Google App Engine Python SDK
-This [Vagrant](http://vagrantup.com/) recipe lets you build [VirtualBox](http://virtualbox.org/) instances with [Google App Engine Python SDK]() installed together with all its dependencies.
+This [Vagrant](http://vagrantup.com/) recipe lets you build [VirtualBox](http://virtualbox.org/) instances with [Google App Engine Python SDK](http://code.google.com/appengine/downloads.html#Google_App_Engine_SDK_for_Python) installed together with all its dependencies.
 
 ## Background
 Currently the GAE Python SDK requires python2.5 which unfortunately is NOT available in typical (_lucid32.box_) Vagrant baseboxes. To get around this we add [Felix Krull's "deadsnakes" backports PPA](https://launchpad.net/~fkrull/+archive/deadsnakes) as a package source and tweak our hashbangs accordingly.
