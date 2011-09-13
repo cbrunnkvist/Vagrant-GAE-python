@@ -10,7 +10,7 @@ import 'python_dev_dependencies.pp'
 include extra_python_modules
 
 
-$GAE_PYTHON_SDK_FILE = 'google_appengine_1.5.3.zip'
+$GAE_PYTHON_SDK_FILE = 'google_appengine_1.5.4.zip'
 $GAE_PYTHON_SDK_URL = "http://googleappengine.googlecode.com/files/$GAE_PYTHON_SDK_FILE"
 
 $GAE = 'google_appengine'
